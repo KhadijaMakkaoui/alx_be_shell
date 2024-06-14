@@ -1,0 +1,5 @@
+#!/bin/bash
+# Add execute permission to the owner and the group owner
+chmod ug+x hello
+# Add read permission to other users
+chmod o+r hello
